@@ -1,0 +1,17 @@
+# Git and Docker files
+.git
+.gitignore
+Dockerfile
+.dockerignore
+
+# Dependencies (installed in the container)
+node_modules
+
+# Build output (created in the container)
+dist
+
+# Logs
+npm-debug.log*
+
+# Secrets
+.env

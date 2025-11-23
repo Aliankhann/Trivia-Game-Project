@@ -1,0 +1,34 @@
+# --------------------------
+# Node.js Dependencies & Logs
+# --------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# --------------------------
+# Build Output (Compiled Code)
+# --------------------------
+dist/
+build/
+
+# --------------------------
+# Environment Variables / Secrets
+# --------------------------
+.env
+.env.*
+*.pem
+
+# --------------------------
+# OS / System Junk
+# --------------------------
+.DS_Store
+Thumbs.db
+
+# --------------------------
+# Editor / IDE Folders
+# --------------------------
+.vscode/
+.idea/
+*.swp
