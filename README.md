@@ -1,6 +1,10 @@
 # MCP Trivia API Server
 
-![Node.js](https://img-shields.io/badge/Node.js-18.x-339933?style=for-the-badge&logo=node.js)![TypeScript](https://img-shields.io/badge/TypeScript-5.x-3178C6?style=for-the-badge&logo=typescript)![Express.js](https://img-shields.io/badge/Express.js-5.x-000000?style=for-the-badge&logo=express)![Docker](https://img-shields.io/badge/Docker-Secured-2496ED?style=for-the-badge&logo=docker)![License](https://img-shields.io/badge/License-ISC-blue?style=for-the-badge)
+![Node.js](https://img.shields.io/badge/Node.js-18.x-339933?style=for-the-badge&logo=node.js)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?style=for-the-badge&logo=typescript)
+![Express.js](https://img.shields.io/badge/Express.js-5.x-000000?style=for-the-badge&logo=express)
+![Docker](https://img.shields.io/badge/Docker-Secured-2496ED?style=for-the-badge&logo=docker)
+![License](https://img.shields.io/badge/License-ISC-blue?style=for-the-badge)
 
 A secure, containerized, and robust backend API that dynamically generates trivia questions on any given topic using the Google Gemini API.
 
@@ -54,8 +58,6 @@ Execute the following command from the same directory where your `.env` file is 
 ```sh
 docker run --rm -p 3000:3000 --env-file .env --name trivia-app aliankhann/mcp-trivia-server
 ```
-*> **Note**: For this to work for others, you must first [build and push your image to a Docker Hub repository](https://docs.docker.com/docker-hub/repos/) under the public name `aliankhann/mcp-trivia-server`.*
-
 The server is now running at `http://localhost:3000`. You can now proceed to the [API Usage](#-api-usage) section.
 
 ---
