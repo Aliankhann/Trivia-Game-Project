@@ -72,8 +72,8 @@ These instructions are for developers who want to clone the source code to modif
 
 #### 1. Clone the Repository
 ```sh
-git clone https://github.com/Aliankhann/mcp-trivia-server.git
-cd mcp-trivia-server
+git clone https://github.com/Aliankhann/Trivia-Game-Project.git
+cd Trivia-Game-Project
 ```
 
 #### 2. Set Up Environment Variables
